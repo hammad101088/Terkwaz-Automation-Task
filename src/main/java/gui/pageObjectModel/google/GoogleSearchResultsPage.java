@@ -15,13 +15,15 @@ public class GoogleSearchResultsPage {
 
     //****** locators ******//
     //todo: enhance this locator
-
     /**
      * get specific google search result by providing its number.
      * @param searchResultNumber the number of the desired search result.
      * @return
      */
     public static By googleSearchResult_text_locator(int searchResultNumber){
+        /*
+        (//div[@class="g"]//h3[not(ancestor::div[@class="_OKe"])])[3]
+        */
         return By.xpath("(//h3[contains(@class,'LC20lb')])["+searchResultNumber+"]");
     }
 
