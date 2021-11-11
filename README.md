@@ -9,8 +9,8 @@
 # Technologies
 
 * JDK-17
-* [Maven](https://maven.apache.org/) as a build tool
-* [TestNG](https://testng.org/) as a unit test framework
+* [Maven](https://maven.apache.org/) as a build tool.
+* [TestNG](https://testng.org/) as a unit test framework.
 * [SHAFT_ENGINE](https://github.com/MohabMohie/SHAFT_ENGINE) which is a Test Automation Engine that provides a unified high-level interface to any of the underlying test automation frameworks.
 * [Selenium WebDriver](https://www.selenium.dev/documentation/en/) for GUI testing.
 * [REST-Assured](https://rest-assured.io/) for API testing.
