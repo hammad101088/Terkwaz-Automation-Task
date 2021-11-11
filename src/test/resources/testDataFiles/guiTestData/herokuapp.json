@@ -1,0 +1,8 @@
+{
+  "TestFileUpload": {
+    "uploadSuccessMessage": "File Uploaded!"
+  },
+  "TestDynamicLoading": {
+    "successMessage": "Hello World!"
+  }
+}
