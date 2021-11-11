@@ -17,6 +17,7 @@
 * [Allure Report Framework](https://docs.qameta.io/allure/) for generating test execution report.
 * [Docker](https://docs.docker.com/)
 * [Selenium Grid](https://www.selenium.dev/documentation/grid/) for remote execution.
+* [GitHub Actions](https://docs.github.com/en/actions) for continous integration.
 
 
 # Run the Test
