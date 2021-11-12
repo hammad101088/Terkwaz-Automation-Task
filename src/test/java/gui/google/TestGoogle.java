@@ -42,9 +42,9 @@ public class TestGoogle {
                 .searchInGoogle(jsonFileManager_googleTestData.getTestData("TestGoogleSearch.searchData"));
 
         Validations.assertThat()
-                .element(driver, GoogleSearchResultsPage.googleSearchResult_text_locator(3))
+                .element(driver, GoogleSearchResultsPage.googleSearchResult_text_locator(16))
                 .text()
-                .isEqualTo(jsonFileManager_googleTestData.getTestData("TestGoogleSearch.expected_results"))
+                .contains(jsonFileManager_googleTestData.getTestData("TestGoogleSearch.expected_results"))
                 .withCustomReportMessage("assert that the third result contains \"What is Selenium WebDriver?\"")
                 .perform();
     }

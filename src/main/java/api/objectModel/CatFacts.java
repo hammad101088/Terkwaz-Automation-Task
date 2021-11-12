@@ -18,8 +18,8 @@ public class CatFacts {
     //******* keywords *******//
 
     /**
-     * get cat facts
-     * @return list of cat facts
+     * get cat facts API request
+     * @return list of cat facts as a response object
      */
     public Response getCatFact(){
         return apiObject.buildNewRequest(FACT_ENDPOINT, RestActions.RequestType.GET).performRequest();

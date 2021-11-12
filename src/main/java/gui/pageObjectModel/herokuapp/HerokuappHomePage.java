@@ -20,12 +20,22 @@ public class HerokuappHomePage {
     }
 
     //****** locators ******//
+
+    /**
+     * get file upload button
+     * @return element locator
+     */
     private static By fileUpload_button_locator(){
         /*
         //*[text()='File Upload']
         */
         return By.xpath("//*[@href='/upload']");
     }
+
+    /**
+     * get dynamic loading button
+     * @return element locator
+     */
     private static By dynamicLoading_button_locator(){
         return By.xpath("//*[@href='/dynamic_loading']");
     }

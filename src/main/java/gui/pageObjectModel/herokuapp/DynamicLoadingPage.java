@@ -14,6 +14,11 @@ public class DynamicLoadingPage {
     }
 
     //****** locators ******//
+
+    /**
+     * get example two button
+     * @return element locator
+     */
     private static By example2_button_locator(){
         return By.xpath("//*[@href='/dynamic_loading/2']");
     }

@@ -36,6 +36,5 @@ public class TestCatFacts {
                 .isNotNull()
                 .withCustomReportMessage("Check that the response \"text\" is not empty")
                 .perform();
-
     }
 }

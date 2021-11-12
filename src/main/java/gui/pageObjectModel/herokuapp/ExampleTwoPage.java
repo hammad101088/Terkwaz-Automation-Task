@@ -14,9 +14,19 @@ public class ExampleTwoPage {
     }
 
     //****** locators ******//
+
+    /**
+     * get start button
+     * @return element locator
+     */
     private static By start_button_locator(){
         return By.xpath("//*[@id='start']/button");
     }
+
+    /**
+     * get finish button
+     * @return element locator
+     */
     public static By helloWorld_text_locator(){
         return By.id("finish");
     }

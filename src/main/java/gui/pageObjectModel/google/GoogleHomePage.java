@@ -18,6 +18,11 @@ public class GoogleHomePage {
     }
 
     //****** locators ******//
+
+    /**
+     * get google search box
+     * @return element locator
+     */
     private static By googleSearch_editText_locator(){ return By.name("q");}
 
     //****** keywords ******//

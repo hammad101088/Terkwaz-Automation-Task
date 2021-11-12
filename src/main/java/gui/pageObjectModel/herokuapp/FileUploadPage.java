@@ -16,8 +16,23 @@ public class FileUploadPage {
     }
 
     //****** locators ******//
+
+    /**
+     * get file upload input
+     * @return element locator
+     */
     private static By fileUpload_input_locator(){ return By.id("file-upload");}
+
+    /**
+     * get file submit button
+     * @return element locator
+     */
     private static By fileUpload_button_locator(){ return By.id("file-submit");}
+
+    /**
+     * get success message for upload text
+     * @return element locator
+     */
     public static By fileUploadedSuccessfully_text_locator(){ return By.xpath("//div[@class='example']//h3");}
 
     //****** keywords ******//
