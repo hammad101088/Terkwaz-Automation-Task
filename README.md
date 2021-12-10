@@ -1,7 +1,7 @@
 [![Desktop Browsers Tests](https://github.com/hammad101088/Terkwaz-Automation-Task/actions/workflows/continuous-integration.yml/badge.svg)](https://github.com/hammad101088/Terkwaz-Automation-Task/actions/workflows/continuous-integration.yml)
 # Terkwaz Test Automation Assignment
 
-* Implementing a test automation framework using **SHAFT_Engine** fot testing both **GUI** and **API**.
+* Implementing a test automation framework using **SHAFT_Engine** for testing both **GUI** and **API**.
 * Implementing modular design by Applying the Page Object Model design pattern (POM).
 * Implementing method chaining by Applying the fluent design.
 * Externalizing test data using JSON files And Applying data driven testing (DDT).
